@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        java: [ '11' ]
+        java: [ '17' ]
     name: Java ${{ matrix.java }} Run Compilation
 
     steps:
